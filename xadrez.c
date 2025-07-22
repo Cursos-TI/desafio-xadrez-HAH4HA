@@ -38,6 +38,31 @@ int main() {
         j++;
     } while (j <= casas_rainha);
 
+    printf("\n");
+
+    // ------------------------------
+    // Movimento do Cavalo - em "L" (2 para Baixo, 1 para Esquerda)
+    // ------------------------------
+    printf("Movimento do Cavalo:\n");
+
+    // Definindo o número de movimentos de "L" que o Cavalo fará
+    int movimentos_cavalo = 3;
+
+    // Loop externo: faz o cavalo repetir o movimento em "L"
+    for (int m = 1; m <= movimentos_cavalo; m++) {
+        // Duas casas para baixo (usando while)
+        int k = 1;
+        while (k <= 2) {
+            printf("Baixo\n");
+            k++;
+        }
+
+        // Uma casa para esquerda
+        printf("Esquerda\n");
+
+        // Separador entre movimentos de "L"
+        printf("---\n");
+    }
+
     return 0;
 }
-
