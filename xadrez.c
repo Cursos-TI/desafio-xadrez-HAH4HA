@@ -66,7 +66,7 @@ int main() {
     // Movimento do Cavalo - Loops Aninhados
     // ------------------------------
     printf("Movimento do Cavalo:\n");
-    mover_cavalo(movimentos_cavalo);
+    mover_cavalo(movimentos_cavalo1);
 
     return 0;
 }
